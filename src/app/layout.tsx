@@ -2,8 +2,8 @@
 
 import { ReactNode } from 'react'
 import { StyledComponentsRegistry } from '@/lib/StyledComponentRegistry'
-import { GlobalStyles } from '@/styles/GlobalStyles.css'
-import { defaultTheme } from '@/styles/themes'
+import { GlobalStyles } from 'src/styles/GlobalStyles.css'
+import { defaultTheme } from 'src/styles/themes'
 
 export default function RootLayout({ children }: { children: ReactNode }) {
     return (
